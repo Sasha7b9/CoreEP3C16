@@ -1,5 +1,5 @@
 Assembler report for LEDA
-Mon Apr 25 20:26:12 2022
+Mon Apr 25 20:32:41 2022
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Mon Apr 25 20:26:12 2022 ;
+; Assembler Status      ; Successful - Mon Apr 25 20:32:41 2022 ;
 ; Revision Name         ; LEDA                                  ;
 ; Top-level Entity Name ; LEDA                                  ;
 ; Family                ; Cyclone III                           ;
@@ -95,7 +95,7 @@ applicable agreement for further details.
 +----------------+------------------------------------------------------------------+
 ; Device         ; EP3C16Q240C8                                                     ;
 ; JTAG usercode  ; 0xFFFFFFFF                                                       ;
-; Checksum       ; 0x000E827E                                                       ;
+; Checksum       ; 0x000E7F05                                                       ;
 +----------------+------------------------------------------------------------------+
 
 
@@ -106,7 +106,7 @@ applicable agreement for further details.
 +--------------------+--------------------------------------------------------------+
 ; Device             ; EPCS4                                                        ;
 ; JTAG usercode      ; 0x00000000                                                   ;
-; Checksum           ; 0x05DE044C                                                   ;
+; Checksum           ; 0x05DEA6FB                                                   ;
 ; Compression Ratio  ; 3                                                            ;
 +--------------------+--------------------------------------------------------------+
 
@@ -117,13 +117,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Mon Apr 25 20:26:10 2022
+    Info: Processing started: Mon Apr 25 20:32:39 2022
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off LEDA -c LEDA
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 4577 megabytes
-    Info: Processing ended: Mon Apr 25 20:26:12 2022
+    Info: Processing ended: Mon Apr 25 20:32:41 2022
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 

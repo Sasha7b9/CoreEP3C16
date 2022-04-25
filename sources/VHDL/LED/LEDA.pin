@@ -253,7 +253,7 @@ RESERVED_INPUT               : 182       :        :                   :         
 RESERVED_INPUT               : 183       :        :                   :         : 7         :                
 RESERVED_INPUT               : 184       :        :                   :         : 7         :                
 RESERVED_INPUT               : 185       :        :                   :         : 7         :                
-RESERVED_INPUT               : 186       :        :                   :         : 7         :                
+LCD_P                        : 186       : output : 3.3-V LVTTL       :         : 7         : N              
 RESERVED_INPUT               : 187       :        :                   :         : 7         :                
 RESERVED_INPUT               : 188       :        :                   :         : 7         :                
 RESERVED_INPUT               : 189       :        :                   :         : 7         :                
@@ -293,7 +293,7 @@ RESERVED_INPUT               : 222       :        :                   :         
 RESERVED_INPUT               : 223       :        :                   :         : 8         :                
 RESERVED_INPUT               : 224       :        :                   :         : 8         :                
 VCCIO8                       : 225       : power  :                   : 3.3V    : 8         :                
-LCD_P                        : 226       : output : 3.3-V LVTTL       :         : 8         : N              
+RESERVED_INPUT               : 226       :        :                   :         : 8         :                
 GND                          : 227       : gnd    :                   :         :           :                
 VCCINT                       : 228       : power  :                   : 1.2V    :           :                
 GND                          : 229       : gnd    :                   :         :           :                

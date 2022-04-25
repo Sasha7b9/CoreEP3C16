@@ -52,10 +52,10 @@ IF clk2'event AND clk2='1'THEN                                 --???????????????
          count1:=0;                                                 --
       end if;                                                            --
       CASE count1 IS                                             --CASE?????LED1??
-      WHEN 0=>led1<="1110";                        --?????????
-      WHEN 1=>led1<="1101";                        -- 
-      WHEN 2=>led1<="1011";                        --
-      WHEN 3=>led1<="0111";                                         --
+      WHEN 0=>led1<="0001";                        --?????????
+      WHEN 1=>led1<="0010";                        -- 
+      WHEN 2=>led1<="0100";                        --
+      WHEN 3=>led1<="1000";                                         --
       WHEN OTHERS=>led1<="1111";              
       END CASE;                                                     
       count1:=count1+1;                                   
