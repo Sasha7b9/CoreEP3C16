@@ -35,13 +35,13 @@ row[2] => row_reg.DATAB
 row[2] => Equal0.IN1
 row[3] => row_reg.DATAB
 row[3] => Equal0.IN0
-col[0] <= col[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-col[1] <= col[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-col[2] <= col[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-col[3] <= col[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-led[0] <= key_value[0].DB_MAX_OUTPUT_PORT_TYPE
-led[1] <= key_value[1].DB_MAX_OUTPUT_PORT_TYPE
-led[2] <= key_value[2].DB_MAX_OUTPUT_PORT_TYPE
-led[3] <= key_value[3].DB_MAX_OUTPUT_PORT_TYPE
+col[0] << col[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+col[1] << col[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+col[2] << col[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+col[3] << col[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+led[0] << key_value[0].DB_MAX_OUTPUT_PORT_TYPE
+led[1] << key_value[1].DB_MAX_OUTPUT_PORT_TYPE
+led[2] << key_value[2].DB_MAX_OUTPUT_PORT_TYPE
+led[3] << key_value[3].DB_MAX_OUTPUT_PORT_TYPE
 
 

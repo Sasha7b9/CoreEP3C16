@@ -1,5 +1,5 @@
 Analysis & Synthesis report for keyscan
-Mon Apr 25 19:45:07 2022
+Mon Apr 25 20:45:05 2022
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -44,7 +44,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Apr 25 19:45:07 2022      ;
+; Analysis & Synthesis Status        ; Successful - Mon Apr 25 20:45:05 2022      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; keyscan                                    ;
 ; Top-level Entity Name              ; keyscan                                    ;
@@ -279,7 +279,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Mon Apr 25 19:45:05 2022
+    Info: Processing started: Mon Apr 25 20:45:03 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off keyscan -c keyscan
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file keyscan.v
@@ -310,8 +310,8 @@ Info (21057): Implemented 70 device resources after synthesis - the final resour
     Info (21059): Implemented 8 output pins
     Info (21061): Implemented 56 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 13 warnings
-    Info: Peak virtual memory: 4618 megabytes
-    Info: Processing ended: Mon Apr 25 19:45:07 2022
+    Info: Peak virtual memory: 4617 megabytes
+    Info: Processing ended: Mon Apr 25 20:45:05 2022
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 
