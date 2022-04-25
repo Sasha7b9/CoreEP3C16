@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for LEDA
-Mon Apr 25 20:32:44 2022
+Mon Apr 25 20:42:23 2022
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -2116,7 +2116,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Mon Apr 25 20:32:42 2022
+    Info: Processing started: Mon Apr 25 20:42:21 2022
 Info: Command: quartus_sta LEDA -c LEDA
 Info: qsta_default_script.tcl version: #1
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -2208,7 +2208,7 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
     Info: Peak virtual memory: 4618 megabytes
-    Info: Processing ended: Mon Apr 25 20:32:44 2022
+    Info: Processing ended: Mon Apr 25 20:42:23 2022
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 

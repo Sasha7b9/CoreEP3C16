@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for KeyBoard
-Mon Apr 25 20:17:56 2022
+Mon Apr 25 20:41:00 2022
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -3319,7 +3319,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Mon Apr 25 20:17:53 2022
+    Info: Processing started: Mon Apr 25 20:40:58 2022
 Info: Command: quartus_sta KeyBoard -c KeyBoard
 Info: qsta_default_script.tcl version: #1
 Critical Warning (138069): Setting INCREMENTAL_COMPILATION to "OFF" is no longer supported. Assignment is ignored. To disable partitions, set the IGNORE_PARTITIONS global assignment to "ON" instead.
@@ -3441,8 +3441,8 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
     Info: Peak virtual memory: 4617 megabytes
-    Info: Processing ended: Mon Apr 25 20:17:56 2022
-    Info: Elapsed time: 00:00:03
+    Info: Processing ended: Mon Apr 25 20:41:00 2022
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:03
 
 
