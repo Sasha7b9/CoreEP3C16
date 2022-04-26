@@ -20,12 +20,12 @@ ARCHITECTURE light OF LEDA IS
         VARIABLE count:INTEGER RANGE  0 TO 9999999;
         BEGIN IF clk'EVENT AND clk='1' THEN
             IF count<=4999999 THEN                           
-                clk1<='0';                                          --?count<=499999?divls=0??count?1
+                clk1<='0';
                 count:=count+1;                          
-            ELSIF count>=4999999 AND count<=9999999 THEN            --?ount>=499999 ?? count<=999998?
+            ELSIF count>=4999999 AND count<=9999999 THEN
                 clk1<='1';
-                count:=count+1;                                --clk1=1??count?1
-            ELSE count:=0;                                        --?count>=499999???count1
+                count:=count+1;
+            ELSE count:=0;
             END IF;
          END IF;
     END PROCESS P1;
@@ -39,11 +39,11 @@ ARCHITECTURE light OF LEDA IS
     P2:PROCESS(CLK2)
         VARIABLE count1:INTEGER RANGE 0 TO 16;
         BEGIN IF clk2'event AND clk2='1'THEN
-            IF count1<=4 THEN                                          --?COUNT1<=9???????
-                IF count1=4 THEN                                        --?COUNT1=8??COUNT1??
+            IF count1<=4 THEN
+                IF count1=4 THEN
                     count1:=0;
                 END IF;
-                CASE count1 IS                                             --CASE?????LED1??
+                CASE count1 IS
                     WHEN 0=>led1<="0001";
                     WHEN 1=>led1<="0010";
                     WHEN 2=>led1<="0100";
