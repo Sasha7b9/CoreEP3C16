@@ -32,3 +32,5 @@
 *.sdo
 *.xrf
 *.srf
+*.bak
+*.flock
