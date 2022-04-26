@@ -27,3 +27,7 @@
 *.tmw_info
 *.rcfdb
 *.hb_info
+*.sft
+*.vo
+*.sdo
+*.xrf
