@@ -32,10 +32,9 @@ BEGIN
 END PROCESS;
   
 P3:PROCESS(CLK1)
-begin
-   IF clk1'event AND clk1='1'THEN
- clk2<=not clk2;
- END IF;
+    BEGIN IF clk1'event AND clk1='1' THEN
+        clk2<=not clk2;
+    END IF;
 END PROCESS P3;
 
 P2:PROCESS(clk2)
