@@ -43,16 +43,16 @@ P2:PROCESS(clk2)
         IF count1<=4 THEN                                          --?COUNT1<=9???????
             IF count1=4 THEN                                        --?COUNT1=8??COUNT1??
                 count1:=0;
+            END IF;
+            CASE count1 IS                                             --CASE?????LED1??
+                WHEN 0=>led1<="0001";
+                WHEN 1=>led1<="0010";
+                WHEN 2=>led1<="0100";
+                WHEN 3=>led1<="1000";
+                WHEN OTHERS=>led1<="1111";              
+            END CASE;
+            count1:=count1+1;                                   
+        END IF;
     END IF;
-      CASE count1 IS                                             --CASE?????LED1??
-      WHEN 0=>led1<="0001";
-      WHEN 1=>led1<="0010";
-      WHEN 2=>led1<="0100";
-      WHEN 3=>led1<="1000";
-      WHEN OTHERS=>led1<="1111";              
-      END CASE;                                                     
-      count1:=count1+1;                                   
-    end if;                                                                     
-end if;                                                                        
-end process;                              
+END PROCESS;                              
 END light;
