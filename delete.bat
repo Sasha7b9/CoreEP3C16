@@ -30,3 +30,6 @@ del *.wlf /s /q
 del *.xrf /s /q
 del *.sft /s /q
 del *.do /s /q
+del *.abo /s /q
+del *.mif /s /q
+del *.tdf /s /q
