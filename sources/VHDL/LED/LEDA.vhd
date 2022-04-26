@@ -1,14 +1,14 @@
 LIBRARY IEEE;
 USE IEEE.STD_LOGIC_1164.ALL;
 USE IEEE.std_logic_unsigned.ALL;
-ENTITY LEDA is
-     PORT(
-          clk:in STD_LOGIC;  --System Clk
-          led1:out STD_LOGIC_VECTOR(3 DOWNTO 0);
+ENTITY LEDA IS
+    PORT(
+        clk:in STD_LOGIC;  --System Clk
+        led1:out STD_LOGIC_VECTOR(3 DOWNTO 0);
 
-			  LCD_N : out std_logic;
-			 LCD_P : out std_logic);   --LED output
-		END LEDA ;       
+        LCD_N : out std_logic;
+        LCD_P : out std_logic);   --LED output
+END LEDA ;       
 		
 ARCHITECTURE light OF LEDA IS            
     SIGNAL clk1,CLK2:std_logic;                                       
