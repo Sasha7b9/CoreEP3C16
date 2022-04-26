@@ -17,15 +17,14 @@ ARCHITECTURE light OF LEDA IS
         LCD_P<='0';                                                                
     
     P1:PROCESS (CLK)
-    VARIABLE count:INTEGER RANGE  0 TO 9999999;
-    BEGIN
-        IF clk'EVENT AND clk='1' THEN
-           IF count<=4999999 THEN                           
-              clk1<='0';                                          --?count<=499999?divls=0??count?1
-              count:=count+1;                          
+        VARIABLE count:INTEGER RANGE  0 TO 9999999;
+        BEGIN IF clk'EVENT AND clk='1' THEN
+            IF count<=4999999 THEN                           
+                clk1<='0';                                          --?count<=499999?divls=0??count?1
+                count:=count+1;                          
             ELSIF count>=4999999 AND count<=9999999 THEN            --?ount>=499999 ?? count<=999998?
-                   clk1<='1';
-                   count:=count+1;                                --clk1=1??count?1
+                clk1<='1';
+                count:=count+1;                                --clk1=1??count?1
             ELSE count:=0;                                        --?count>=499999???count1
             END IF;
          END IF;
