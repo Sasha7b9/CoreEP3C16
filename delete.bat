@@ -33,3 +33,9 @@ del *.do /s /q
 del *.abo /s /q
 del *.mif /s /q
 del *.tdf /s /q
+del *.rpt /s /q
+del *.sof /s /q
+del *.qdf /s /q
+del *.summary /s /q
+del *.done /s /q    
+del *.smsg /s /q
