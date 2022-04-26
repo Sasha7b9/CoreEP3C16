@@ -39,3 +39,4 @@ del *.qdf /s /q
 del *.summary /s /q
 del *.done /s /q    
 del *.smsg /s /q
+del *.srf /s /q
