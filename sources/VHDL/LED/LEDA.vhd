@@ -38,13 +38,12 @@ P3:PROCESS(CLK1)
 END PROCESS P3;
 
 P2:PROCESS(clk2)
-variable count1:INTEGER RANGE 0 TO 16;                         --????????????
-BEGIN
-IF clk2'event AND clk2='1'THEN                                 --?????????????????
-   if count1<=4 then                                          --?COUNT1<=9???????
-      if count1=4 then                                        --?COUNT1=8??COUNT1??
-         count1:=0;
-      end if;
+    VARIABLE count1:INTEGER RANGE 0 TO 16;
+    BEGIN IF clk2'event AND clk2='1'THEN
+        IF count1<=4 THEN                                          --?COUNT1<=9???????
+            IF count1=4 THEN                                        --?COUNT1=8??COUNT1??
+                count1:=0;
+    END IF;
       CASE count1 IS                                             --CASE?????LED1??
       WHEN 0=>led1<="0001";
       WHEN 1=>led1<="0010";
