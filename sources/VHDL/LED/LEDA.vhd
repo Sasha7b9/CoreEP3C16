@@ -39,8 +39,8 @@ ARCHITECTURE light OF LEDA IS
     P2:PROCESS(CLK2)
         VARIABLE count1:INTEGER RANGE 0 TO 16;
         BEGIN IF clk2'event AND clk2='1'THEN
-            IF count1<=4 THEN
-                IF count1=4 THEN
+            IF count1<=5 THEN
+                IF count1=5 THEN
                     count1:=0;
                 END IF;
                 CASE count1 IS
@@ -48,7 +48,7 @@ ARCHITECTURE light OF LEDA IS
                     WHEN 1=>led1<="0010";
                     WHEN 2=>led1<="0100";
                     WHEN 3=>led1<="1000";
-                    WHEN OTHERS=>led1<="1111";              
+                    WHEN OTHERS=>led1<="0000";              
                 END CASE;
                 count1:=count1+1;                                   
             END IF;
