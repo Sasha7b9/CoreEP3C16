@@ -319,6 +319,7 @@ set_location_assignment	PIN_70	-to	8I/Os_1_4
 set_location_assignment	PIN_71	-to	8I/Os_1_3
 set_location_assignment	PIN_72	-to	8I/Os_1_2
 set_location_assignment	PIN_73	-to	8I/Os_1_1
+
 #8I/Os_2
 set_location_assignment	PIN_144	-to	8I/Os_2_8	  
 set_location_assignment	PIN_145	-to	8I/Os_2_7
@@ -328,6 +329,7 @@ set_location_assignment	PIN_148	-to	8I/Os_2_4
 set_location_assignment	PIN_159	-to	8I/Os_2_3
 set_location_assignment	PIN_160	-to	8I/Os_2_2
 set_location_assignment	PIN_161	-to	8I/Os_2_1
+
 #16I/Os_1
 set_location_assignment	PIN_184	-to	16I/Os_1_1	   
 set_location_assignment	PIN_183	-to	16I/Os_1_2
@@ -345,7 +347,6 @@ set_location_assignment	PIN_167	-to	16I/Os_1_13
 set_location_assignment	PIN_166	-to	16I/Os_1_14
 set_location_assignment	PIN_164	-to	16I/Os_1_15
 set_location_assignment	PIN_162	-to	16I/Os_1_16
-
 
 #16I/Os_2
 set_location_assignment	PIN_143	-to	16I/Os_2_1	   
@@ -432,8 +433,3 @@ set_location_assignment	PIN_187	-to	32I/Os_2_29
 set_location_assignment	PIN_188	-to	32I/Os_2_30
 set_location_assignment	PIN_185	-to	32I/Os_2_31
 set_location_assignment	PIN_186	-to	32I/Os_2_32
-
-
-
-
-
