@@ -23,7 +23,7 @@ applicable agreement for further details.
 	(input)
 	(rect 160 88 328 104)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "input1_and" (rect 5 0 59 12)(font "Arial" ))
+	(text "input1_and" (rect 5 0 58 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 160 120 328 136)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "input2_and" (rect 5 0 59 12)(font "Arial" ))
+	(text "input2_and" (rect 5 0 58 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 160 184 328 200)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "input1_or" (rect 5 0 50 12)(font "Arial" ))
+	(text "input1_or" (rect 5 0 49 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(input)
 	(rect 160 216 328 232)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "input2_or" (rect 5 0 50 12)(font "Arial" ))
+	(text "input2_or" (rect 5 0 49 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -87,7 +87,7 @@ applicable agreement for further details.
 	(input)
 	(rect 160 280 328 296)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "intpu_not" (rect 5 0 50 12)(font "Arial" ))
+	(text "intpu_not" (rect 5 0 49 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -98,6 +98,24 @@ applicable agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 112 296 160 312))
+)
+(pin
+	(input)
+	(rect 160 336 328 352)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "intpu_not2" (rect 5 0 56 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 112 352 160 368))
 )
 (pin
 	(output)
@@ -133,7 +151,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 520 280 696 296)
+	(rect 664 280 840 296)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "output_not" (rect 90 0 141 12)(font "Arial" ))
 	(pt 0 8)
@@ -146,6 +164,7 @@ applicable agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
+	(annotation_block (location)(rect 840 296 896 312))
 )
 (symbol
 	(rect 384 88 448 136)
@@ -213,28 +232,20 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 392 272 440 304)
-	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
-	(text "inst4" (rect 3 21 26 33)(font "Arial" ))
+	(rect 336 376 368 408)
+	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
+	(text "inst7" (rect 3 21 26 33)(font "Arial" )(invisible))
 	(port
-		(pt 0 16)
-		(input)
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 13 16))
-	)
-	(port
-		(pt 48 16)
+		(pt 16 0)
 		(output)
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(line (pt 39 16)(pt 48 16))
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(line (pt 16 8)(pt 16 0))
 	)
 	(drawing
-		(line (pt 13 25)(pt 13 7))
-		(line (pt 13 7)(pt 31 16))
-		(line (pt 13 25)(pt 31 16))
-		(circle (rect 31 12 39 20))
+		(line (pt 8 8)(pt 16 16))
+		(line (pt 16 16)(pt 24 8))
+		(line (pt 8 8)(pt 24 8))
 	)
 )
 (connector
@@ -282,16 +293,8 @@ applicable agreement for further details.
 	(pt 352 224)
 )
 (connector
-	(pt 328 288)
-	(pt 392 288)
-)
-(connector
 	(pt 448 208)
 	(pt 528 208)
-)
-(connector
-	(pt 440 288)
-	(pt 520 288)
 )
 (connector
 	(pt 448 112)
@@ -312,4 +315,16 @@ applicable agreement for further details.
 (connector
 	(pt 456 128)
 	(pt 520 128)
+)
+(connector
+	(pt 328 288)
+	(pt 664 288)
+)
+(connector
+	(pt 328 344)
+	(pt 352 344)
+)
+(connector
+	(pt 352 344)
+	(pt 352 376)
 )
