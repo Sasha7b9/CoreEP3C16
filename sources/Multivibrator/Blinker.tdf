@@ -1,0 +1,15 @@
+subdesign Blinker(
+    CLK : input;
+    LED[5..1] : output)
+variable
+    cnt[25..0] : dff;
+begin
+    cnt[].clk = CLK;
+    if cnt[] == 50000000 then
+        cnt[] = 0;
+    else
+        cnt[] = cnt[] + 1;
+    end if;
+    
+    LED[5..1] = cnt[25..21];
+end;

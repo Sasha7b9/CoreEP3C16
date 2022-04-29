@@ -35,3 +35,9 @@
 *.bak
 *.flock
 *.qws
+*.jic
+*.lpc.txt
+*.lpc.html
+*.smart_action.txt
+*.hbdb.sig
+output_file.map
