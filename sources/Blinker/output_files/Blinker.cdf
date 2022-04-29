@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP3C16Q240) Path("D:/My/GitHub/_prog/CoreEP3C16/sources/Blinker/output_files/") File("Blinker.sof") MfrSpec(OpMask(1));
+		Device PartName(EP3C16) Path("D:/My/GitHub/_prog/CoreEP3C16/sources/Blinker/output_files/") File("output_file.jic") MfrSpec(OpMask(1) SEC_Device(EPCS16) Child_OpMask(1 1));
 
 ChainEnd;
 
