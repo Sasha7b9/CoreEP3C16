@@ -42,3 +42,5 @@ del *.smsg /s /q
 del *.srf /s /q
 del *.bak /s /q
 del *.qws /s /q
+del *.pof /s /q
+del *.sof /s /q

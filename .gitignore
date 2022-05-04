@@ -41,3 +41,7 @@
 *.smart_action.txt
 *.hbdb.sig
 output_file.map
+*.pof
+*.sof
+*.tdf
+*.qdf
