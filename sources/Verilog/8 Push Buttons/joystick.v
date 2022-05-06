@@ -14,10 +14,8 @@ reg  Count;
 always@(posedge clk or negedge reset)
     if(!reset)
         Count1<=11'd0;
-    else if(Count1==11'd1999)
-        Count=~Count;
-    else 
-        Count1<=Count1+1'b1;
+    else
+        Count<=Count+1;
 
 always@(posedge Count or negedge reset)
     if(!reset)
